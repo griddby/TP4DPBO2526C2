@@ -208,7 +208,7 @@ TP4/
 
 ### 6. Error Handling — Data Wajib Diisi
 
-[Klik di sini untuk menonton video validasi field](Dokumentasi/data_wajib_isi.mp4)
+![Read Data](Dokumentasi/data_wajib_isi.gif)
 
 ### 7. Error Handling — ID Duplikat dan Tahun Lahir Tidak Valid
 
