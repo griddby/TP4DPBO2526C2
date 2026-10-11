@@ -188,28 +188,30 @@ TP4/
 ## Dokumentasi 
 ### 1. Read — Membaca Data
 
-<video src="Dokumentasi/read_data.mp4" autoplay muted loop playsinline width="350"></video>
+[Klik di sini untuk menonton video Read Data](Dokumentasi/read_data.mp4)
 
 ### 2. Create — Menambahkan Data
 
-<video src="Dokumentasi/add_data.mp4" autoplay muted loop playsinline width="350"></video>
+[Klik di sini untuk menonton video Add Data](Dokumentasi/add_data.mp4)
 
 ### 3. Update — Memperbarui Data
-<video src="Dokumentasi/update_data.mp4" autoplay muted loop playsinline width="350"></video>
+
+[Klik di sini untuk menonton video Update Data](Dokumentasi/update_data.mp4)
 
 ### 4. Delete — Menghapus Data
-<video src="Dokumentasi/hapus_data.mp4" autoplay muted loop playsinline width="350"></video>
+
+[Klik di sini untuk menonton video Delete Data](Dokumentasi/hapus_data.mp4)
 
 ### 5. Tombol Cancel
-<video src="Dokumentasi/tombol_cancel.mp4" autoplay muted loop playsinline width="350"></video>
 
-### 6. Error Handling - Data Wajib Diisi
-<video id="add_video" src="Dokumentasi/data_wajib_isi.mp4" autoplay muted loop playsinline width="350"></video>
+[Klik di sini untuk menonton video Cancel](Dokumentasi/tombol_cancel.mp4)
 
-### 7. Error Hadling - ID Duplikat dan Tahun Lahir Tidak Valid
-<video id="add_video" src="Dokumentasi/id_duplikat_tahun_valid.mp4" autoplay muted loop playsinline width="350"></video>
+### 6. Error Handling — Data Wajib Diisi
 
+[Klik di sini untuk menonton video validasi field](Dokumentasi/data_wajib_isi.mp4)
 
+### 7. Error Handling — ID Duplikat dan Tahun Lahir Tidak Valid
 
+[Klik di sini untuk menonton video validasi ID dan tahun lahir](Dokumentasi/id_duplikat_tahun_valid.mp4)
 
 
