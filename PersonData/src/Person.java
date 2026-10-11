@@ -7,6 +7,7 @@ public class Person {
     private int jumlahkarya;
     private String status;
 
+    // Konstruktor
     public Person(){
     }
     public Person(String id, String nama, int tahunlahir, String kategori, int jumlahkarya, String status){
@@ -18,6 +19,7 @@ public class Person {
         this.status = status;
     }
 
+    // Setter
     public void setId(String id){
         this.id = id;
     }
@@ -42,6 +44,7 @@ public class Person {
         this.status = status;
     }
 
+    // Getter
     public String getId() {
         return id;
     }

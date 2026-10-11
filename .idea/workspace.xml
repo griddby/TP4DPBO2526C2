@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24e911d8-ba02-4084-9da8-2e83412eb919" name="Changes" comment="" />
+    <list default="true" id="c36c6f3b-6f78-4e7c-92df-3c8c5cc8201d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +13,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
+  "customColor": "",
+  "associatedIndex": 6
 }]]></component>
-  <component name="ProjectId" id="3KUucC5QxwGSGvVcjA0kQjR3cDF" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="3KXymIQFRCrKS5GgEyOdxH54rk4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,9 +30,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ILMU KOMPUTER/SEMESTER 3/DESAIN DAN PEMROGRAMAN BERORIENTASI OBJEK/PRAKTIKUM/TP4DPBO2526C2",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
@@ -48,11 +45,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24e911d8-ba02-4084-9da8-2e83412eb919" name="Changes" comment="" />
-      <created>1791624544437</created>
+      <changelist id="c36c6f3b-6f78-4e7c-92df-3c8c5cc8201d" name="Changes" comment="" />
+      <created>1791718365206</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1791624544437</updated>
+      <updated>1791718365206</updated>
     </task>
     <servers />
   </component>
