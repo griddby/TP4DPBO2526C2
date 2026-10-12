@@ -132,40 +132,7 @@ Secara umum, alur kerja aplikasi Writer Database adalah sebagai berikut:
 7. Tabel diperbarui sesuai perubahan data.
 8. Pengguna dapat melanjutkan pengelolaan data selama aplikasi berjalan.
 
-
-## Error Handling
-
-Error handling digunakan untuk menangani kondisi ketika pengguna memberikan input yang tidak sesuai atau melakukan operasi yang tidak memenuhi persyaratan program.
-
-Berikut adalah skenario pengujian yang dapat digunakan sesuai validasi yang benar-benar tersedia pada program.
-
-| Skenario | Perilaku yang Diharapkan |
-|---|---|
-| Field wajib kosong | Program memberikan peringatan dan tidak menambahkan data yang tidak lengkap. |
-| ID penulis duplikat | Program menolak ID yang sudah digunakan jika validasi ID unik diterapkan. |
-| Input angka tidak valid | Program menangani input yang tidak sesuai dengan tipe data numerik apabila input tersebut memungkinkan. |
-| Membatalkan penghapusan | Data tetap tersedia jika program menyediakan dialog konfirmasi dan pengguna membatalkan penghapusan. |
-
-
-## Hasil Pengujian
-
-Pengujian dilakukan untuk memastikan bahwa fitur pengelolaan data penulis berjalan sesuai fungsinya.
-
-| No. | Fitur yang Diuji | Skenario Pengujian | Hasil yang Diharapkan |
-|---|---|---|---|
-| 1 | Read | Membuka aplikasi | Data penulis ditampilkan pada tabel. |
-| 2 | Create | Menambahkan data penulis baru | Data baru muncul pada tabel. |
-| 3 | Update | Mengubah data penulis yang dipilih | Informasi pada tabel berubah sesuai pembaruan. |
-| 4 | Delete | Menghapus data penulis yang dipilih | Data yang dihapus tidak lagi muncul pada tabel. |
-| 5 | Cancel | Menekan tombol Cancel | Formulir kembali sesuai perilaku tombol yang diterapkan. |
-| 6 | Validasi field | Membiarkan field wajib kosong | Program memberikan peringatan dan menolak data yang tidak valid. |
-| 7 | Validasi ID | Memasukkan ID yang sudah digunakan | Program menolak ID duplikat jika validasi tersebut diterapkan. |
-| 8 | Validasi tahun lahir | Memasukkan tahun lahir yang tidak valid | Program menolak input sesuai aturan validasi yang diterapkan. |
-
-
 ## Struktur Dokumentasi Repository
-
-Pastikan struktur folder dokumentasi sesuai dengan tautan yang digunakan dalam README.
 
 ```text
 TP4/
@@ -185,33 +152,54 @@ TP4/
 └── README.md
 ```
 
+## Error Handling
+
+Error handling digunakan untuk menangani kondisi ketika pengguna memberikan input yang tidak sesuai atau melakukan operasi yang tidak memenuhi persyaratan program.
+
+Berikut adalah skenario pengujian yang dapat digunakan sesuai validasi yang benar-benar tersedia pada program.
+
+| Skenario | Perilaku yang Diharapkan |
+|---|---|
+| Field wajib kosong | Program memberikan peringatan dan tidak menambahkan data yang tidak lengkap. |
+| ID penulis duplikat | Program menolak ID yang sudah digunakan jika validasi ID unik diterapkan. |
+| Input angka tidak valid | Program menangani input yang tidak sesuai dengan tipe data numerik apabila input tersebut memungkinkan. |
+| Membatalkan penghapusan | Data tetap tersedia jika program menyediakan dialog konfirmasi dan pengguna membatalkan penghapusan. |
+
+## Hasil Pengujian
+
+Pengujian dilakukan untuk memastikan bahwa fitur pengelolaan data penulis berjalan sesuai fungsinya.
+
+| No. | Fitur yang Diuji | Skenario Pengujian | Hasil yang Diharapkan |
+|---|---|---|---|
+| 1 | Read | Membuka aplikasi | Data penulis ditampilkan pada tabel. |
+| 2 | Create | Menambahkan data penulis baru | Data baru muncul pada tabel. |
+| 3 | Update | Mengubah data penulis yang dipilih | Informasi pada tabel berubah sesuai pembaruan. |
+| 4 | Delete | Menghapus data penulis yang dipilih | Data yang dihapus tidak lagi muncul pada tabel. |
+| 5 | Cancel | Menekan tombol Cancel | Formulir kembali sesuai perilaku tombol yang diterapkan. |
+| 6 | Validasi field | Membiarkan field wajib kosong | Program memberikan peringatan dan menolak data yang tidak valid. |
+| 7 | Validasi ID | Memasukkan ID yang sudah digunakan | Program menolak ID duplikat jika validasi tersebut diterapkan. |
+| 8 | Validasi tahun lahir | Memasukkan tahun lahir yang tidak valid | Program menolak input sesuai aturan validasi yang diterapkan. |
+
+
 ## Dokumentasi 
 ### 1. Read — Membaca Data
-
-[Klik di sini untuk menonton video Read Data](Dokumentasi/read_data.mp4)
+<img src="Dokumentasi/read_data.gif" width="500">
 
 ### 2. Create — Menambahkan Data
-
-[Klik di sini untuk menonton video Add Data](Dokumentasi/add_data.mp4)
+<img src="Dokumentasi/add_data.gif" width="500">
 
 ### 3. Update — Memperbarui Data
-
-[Klik di sini untuk menonton video Update Data](Dokumentasi/update_data.mp4)
+<img src="Dokumentasi/update_data.gif" width="500">
 
 ### 4. Delete — Menghapus Data
-
-[Klik di sini untuk menonton video Delete Data](Dokumentasi/hapus_data.mp4)
+<img src="Dokumentasi/hapus_data.gif" width="500">
 
 ### 5. Tombol Cancel
-
-[Klik di sini untuk menonton video Cancel](Dokumentasi/tombol_cancel.mp4)
+<img src="Dokumentasi/tombol_cancel.gif" width="500">
 
 ### 6. Error Handling — Data Wajib Diisi
-
-<img src="Dokumentasi/data_wajib_isi.gif" width="350">
+<img src="Dokumentasi/data_wajib_isi.gif" width="500">
 
 ### 7. Error Handling — ID Duplikat dan Tahun Lahir Tidak Valid
-
-[Klik di sini untuk menonton video validasi ID dan tahun lahir](Dokumentasi/id_duplikat_tahun_valid.mp4)
-
+<img src="Dokumentasi/id_duplikat_tahun_valid.gif" width="500">
 
